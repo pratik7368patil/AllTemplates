@@ -8,6 +8,10 @@ body {
 	box-sizing: border-box;
 	height: 100vh;
 	width: 100%;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../images/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
 }
 
 .navbar {
@@ -69,7 +73,7 @@ body {
 }
 
 .main-para {
-	color: darkgray;
+	color: lightgray;
 	font-size: 25px;
 }
 
@@ -99,6 +103,10 @@ body {
 	transition-timing-function: linear;
 }
 
+.custom-btn:focus {
+	outline: none;
+}
+
 .custom-btn:hover {
 	background: white;
 	color: black;
@@ -121,6 +129,10 @@ body {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 	position: relative;
+	color: #1b1b1b;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-backdrop-filter: blur(20px);
+  	backdrop-filter: blur(20px);  
 }
 
 .card-head {
@@ -154,5 +166,3 @@ body {
 	background: white;
 	color: black;
 }
-
-

@@ -47,6 +47,7 @@ const createCard = (dataObj) => {
 	let preview = document.createElement('a');
 	preview.classList.add('custom-card-btn');
 	preview.href = dataObj.url;
+	preview.target = "_blank";
 	preview.innerHTML = "PREVIEW";
 
 	cardbtn.appendChild(preview);
