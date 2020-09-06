@@ -1,0 +1,112 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.navbar {
+	height: 5%;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	align-items: center;
+}
+
+.nav-head {
+	font-size: 25px;
+}
+
+.hightlight-head {
+	color: #db6650;
+}
+
+.nav-all-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 200px;
+}
+
+.nav-link {
+	margin-left: 30px;
+}
+
+.nav-link-inner {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-active-link {
+	color: #db6650;
+}
+
+
+.main-section {
+	height: 90%;
+}
+
+.row {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.col {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content-center {
+	justify-content: center;
+}
+
+.main-head {
+	font-size: 60px;
+}
+
+.main-head > span {
+	font-weight: bold;
+}
+
+.d-block {
+	display: block;
+}
+
+.shift-right {
+	padding-left: 40px;
+}
+
+
+.main-btn {
+	margin-top: 20px;
+}
+
+.custom-btn {
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid white;
+}
+
+.custom-btn:hover {
+	background: #db6650;
+}

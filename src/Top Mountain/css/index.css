@@ -1,0 +1,108 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	height: 100vh;
+	background-image: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	height: 4%;
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.nav-head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+.nav-all-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.nav-link {
+	margin-left: 20px;
+}
+
+.nav-link-inner {
+	text-decoration: none;
+	color: royalblue;
+	cursor: pointer;
+}
+
+.main-section {
+	height: 80%;
+	padding-top: 50px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	width: 42%;
+	height: 100%;
+}
+
+.shift-right {
+	padding-left: 30px;
+}
+
+.col-2 {
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+	height: 100%;
+}
+
+.link {
+	text-decoration: none;
+	color: royalblue;
+}
+
+.custom-width {
+	width: 40%;
+}
+
+.custom-font-size {
+	font-size: 15px;
+}
+
+.content-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.writer {
+	width: 100%;
+}
+
+.main-head {
+	font-size: 90px;
+	font-weight: bold;
+}
+
+.main-two-info {
+	display: flex;
+}
