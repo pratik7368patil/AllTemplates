@@ -29,6 +29,16 @@ let data = [
 	cardBody: "Camping is an outdoor activity involving overnight stays away from home in a shelter, such as a tent or a recreational vehicle. Typically participants leave developed areas to spend time outdoors",
 	url: "./src/Camping/index.html"
 },
+{
+	cardHead: "SNAPSOUND : Tell Stories",
+	cardBody: "Storytelling describes the social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment. Every culture has its own stories or narratives, which are shared as a means of entertainment, education, cultural preservation or instilling moral values.",
+	url: "./src/Story Teller/index.html"
+},
+{
+	cardHead: "RESCUE ANIMALS : DOGS",
+	cardBody: "The dog is a domesticated carnivore of the family Canidae. It is part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.",
+	url: "./src/Cute Puppies/index.html"
+},
 ]
 
 
