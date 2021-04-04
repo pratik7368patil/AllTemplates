@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  height: 15%;
+  width: 100%;
+}
+
+.navbar,
+.nav-links {
+  display: flex;
+}
+
+.navbar {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 30%;
+}
+
+.nav-links {
+  width: 50%;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.nav-link a:hover {
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.container {
+  height: 85%;
+  display: flex;
+}
+
+.text-content,
+.image-content {
+  height: 100%;
+  width: 50%;
+}
+
+.text-content-inner {
+  width: 80%;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-head {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.text-sub-head {
+  font-size: 23px;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  border: none;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2b2b2b;
+  color: yellowgreen;
+  transition: all 1s ease-in-out;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.image-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-block {
+  height: 75%;
+  width: 33.3%;
+  margin: 5px;
+}
+
+.middle-img {
+  height: 100%;
+}
+
+.image-block-inner {
+  height: 50%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.res-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
