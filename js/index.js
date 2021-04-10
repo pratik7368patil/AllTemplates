@@ -54,10 +54,10 @@ let data = [
     url: "./src/Future Work Place/index.html",
   },
   {
-    cardHead: "Dumb Card",
+    cardHead: "Healthy Living",
     cardBody:
-      "Lorem ipsum dolor sit amet consectetur, adipiscing elit facilisis arcu ante, faucibus tellus curabitur facilisi.",
-    url: "#",
+      "The foundational guide to balancing your nutritional and everydaylifestyle",
+    url: "./src/Healthy Living/index.html",
   },
 ];
 
